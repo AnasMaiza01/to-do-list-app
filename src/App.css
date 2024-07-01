@@ -1,0 +1,96 @@
+.App {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  padding: 10px 0;
+  border-radius: 4px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  width: 90%;
+  height: 350px;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: none;
+  justify-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#listedItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+#taskIcon {
+  width: fit-content;
+}
+
+#listedTask{
+  cursor: pointer;
+}
+
+#add_task {
+  width: 90%;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#task_input {
+  all:unset;
+  width: 70%;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 2px;
+  caret-color: gray;
+}
+
+.btn {
+  all:unset;
+  width: 20%;
+  padding: 4px;
+  border-radius: 4px;
+  background-color: #583bff;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #401eff;
+}
+
+.closeBtn {
+  background-color: #ff3b3b;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeBtn:hover {
+  background-color: #ff1e1e;
+}
